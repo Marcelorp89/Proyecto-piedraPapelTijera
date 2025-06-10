@@ -1,0 +1,220 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #DDE6ED;
+    padding: 30px;
+}
+
+main{
+    padding-top: 150px;
+    margin-bottom: 40px;
+
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+header{
+    background: #526D82;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    font-size: 20px;
+}
+
+nav ul li a{
+    display: block;
+    padding: 20px;
+    color: #DDE6ED;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: #9DB2BF;
+}
+
+ul,li{
+    text-align: justify;
+    margin: 10px;
+}
+
+.icono {
+  font-size: 50px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icono:hover {
+  transform: scale(1.2);
+}
+
+#result{
+    margin-top: 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#puntaje{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+footer{
+    background-color: #526D82;
+    color: #DDE6ED;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#botonJugar{
+    padding: 1rem 1rem;
+    font-size: 16px;
+    margin: 0.5rem;
+    transition: 0.3s;
+    border-radius: 8px;
+    background-color: #27374D;
+    color: #DDE6ED
+
+}
+
+#botonJugar:hover{
+    color: #DDE6ED;
+    background-color: #526D82;
+}
+
+.botones-inferiores {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Espacio entre el botón y el ícono */
+}
+
+.btn-reset {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #27374D;
+  color: #DDE6ED;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-reset:hover {
+  background-color: #a52a2a;
+}
+
+.boton-icono {
+  display: inline-block;
+  background-color: #27374D;
+  color: #DDE6ED;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-icono:hover {
+  background-color: darkgreen;
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.boton-volver{
+    margin-top: 40px;
+}
+
+textarea{
+  width: 300px;
+  resize: none;
+}
+
+#github{
+  text-decoration: none;
+  color: black;
+}
+
+#github:hover{
+  color: turquoise;
+}
+
+#linkedin{
+  text-decoration: none;
+  color: black;
+}
+
+#linkedin:hover{
+  color: turquoise
+}
+
+#main-comentarios {
+  max-width: 800px;        
+  margin: 0 auto;          
+  padding: 20px;           
+  text-align: justify;     
+  line-height: 1.6;  
+}
+
+#btn-enviar{
+  display: inline-block;
+  background-color: #27374D;
+  color: #DDE6ED;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+
+}
+
+.estrella {
+  font-size: 2rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.estrella.activa {
+  color: gold;
+}
+
+
+
+

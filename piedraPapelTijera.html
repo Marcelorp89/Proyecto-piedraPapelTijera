@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra papel o tijera</title>
+    <link rel="stylesheet" href="estilos.css">
+    <a href="index.html"></a>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+<body>
+    <h1>Piedra, papel o tijera</h1>
+
+    <div class="choices">
+        <span onclick="play('piedra')" class="icono">&#9994</span>
+        <span onclick="play('papel')" class="icono">&#9995</span>
+        <span onclick="play('tijera')" class="icono">&#9996
+
+        </span>
+    </div>
+
+    <div id="result"></div>
+
+    <p id="puntaje">Jugador: 0 | Máquina: 0</p>
+
+    <p id="final"></p>
+
+    <div class="boton-inferior">
+        <button onclick="resetGame()" class="btn-reset" title="Reiniciar juego">&#x267b Reiniciar</button>
+
+    </div>
+
+    <div class="boton-volver" title="Haz click para volver al inicio">
+        <a href="index.html" class="boton-icono">
+        <span class="material-symbols-outlined">arrow_back</span>
+        </a>
+    </div>
+
+    <footer>Desarrollado por Marcelo Rodríguez.</footer>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
